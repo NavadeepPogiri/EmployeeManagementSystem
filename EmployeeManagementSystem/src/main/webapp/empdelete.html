@@ -1,0 +1,102 @@
+<html>
+<style>
+.peace {
+	width: fit-content;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.field {
+	width: fit-content;
+	margin: 15px auto;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+body {
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+.tt {
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+}
+
+a:hover {
+	color: rgb(254, 254, 255);
+	background-color:  #4CAF50;
+	border-radius: 10px;
+	padding: 5px;
+	
+	width: fit-content;
+}
+
+.st {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nd {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"] {
+	width: 150px;
+	padding: 3px;
+}
+
+input[type="submit"] {
+	width: 70px;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.kl{
+color: blue;
+font-family: 'Times New Roman', Times, serif;
+text-decoration: none;
+}
+footer{
+font-family: 'Times New Roman', Times, serif;
+}
+</style>
+<body>
+	<center>
+		<fieldset class="peace">
+			<h1 class="st">Employee Management System</h1>
+			<a href="" class="tt">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+				href="contact.html" class="tt">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+				href="register.html" class="tt">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+				href="login.html" class="tt">Login</a>&nbsp;&nbsp;&nbsp;
+			<form action="EmpDelete" method="post">
+				<fieldset class="field">
+					<h2 class="nd">Delete Employee Here</h2>
+					<table>
+						<tr>
+							<td><label for="name">Name</label></td>
+							<td><input type="text" name="name"></td>
+						</tr>
+
+					</table>
+					<input type="submit" value="delete">
+                  <footer>Update user here-> <a href="empupdate.html" class="kl">Update</a></footer>
+				</fieldset>
+			</form>
+		</fieldset>
+	</center>
+
+</body>
+
+
+
+</html>

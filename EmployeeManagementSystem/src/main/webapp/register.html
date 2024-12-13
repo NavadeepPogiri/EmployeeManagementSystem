@@ -1,0 +1,150 @@
+<html>
+<head>
+<style>
+.peace {
+	margin: 50px auto;
+	padding: 20px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	width: fit-content;
+}
+
+.field {
+	margin: 50px;
+	padding: 30px;
+	width: fit-content;
+	height: fit-content;
+	box-shadow: 0px 1px 1px #333;
+	border-radius: 10px;
+}
+
+form {
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"]
+	{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="submit"] {
+	width: 70px;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="reset"] {
+	width: 50px;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h1:hover {
+	color: brown;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	margin-right: 10px;
+}
+a:hover{
+color: red;
+}
+
+.log {
+	color: blue;
+}
+</style>
+
+
+</head>
+<body>
+
+<center>
+	<fieldset class="field">
+		
+			<h1>Employee Management System</h1>
+			<a href="home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+				href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+				href="register.html">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+				href="login.html">Login</a>&nbsp;&nbsp;&nbsp;
+
+			<form action="Empregister" method="post">
+				<fieldset class="peace">
+					<h2>Register Here</h2>
+					<table>
+						<tr>
+							<td><label for="name">Enter your name:</label></td>
+							<td><input type="text" name="name"></td>
+						</tr>
+						<tr>
+							<td><label for="password">Enter your password:</label></td>
+							<td><input type="password" name="password"></td>
+						</tr>
+						<tr>
+							<td><label for="email">Enter your email:</label></td>
+							<td><input type="email" name="email"></td>
+						</tr>
+						<tr>
+							<td><label for="gender">Gender:</label></td>
+							<td><input type="radio" name="gender" value="male">Male
+								<input type="radio" name="gender" value="female">Female</td>
+						</tr>
+						<tr>
+							<td><label for="mobile">Mobile Number:</label></td>
+							<td><input type="tel" name="mobile" maxlength="10"></td>
+						</tr>
+						<tr>
+							<td><label for="state">State:</label></td>
+							<td><input type="text" name="state" id="state"></td>
+						</tr>
+						<tr>
+							<td><label for="country">Country:</label></td>
+							<td><input type="text" name="country"></td>
+						</tr>
+						<tr>
+							<td><label for="address">Address:</label></td>
+							<td><input type="text" name="address"></td>
+						</tr>
+					</table>
+					<input type="submit" value="Register"> <input type="reset"
+						value="Reset">
+
+					<footer>
+						Have an account?<a href="login.html" class="log">login</a>
+					</footer>
+				</fieldset>
+			</form>
+		
+	</fieldset>
+	</center>
+</body>
+</html>
